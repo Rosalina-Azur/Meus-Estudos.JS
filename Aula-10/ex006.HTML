@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#Miau {
+            background: green;
+            color : white;
+            width : 200px;
+            height : 200px;
+            line-height : 200px;
+            text-align : center;
+        }
+    </style>
+</head>
+<body>
+    <div id="Miau">
+        Interaja ....
+        
+    </div>
+
+    <script>
+        var m = window.document.getElementById('Miau')
+        m.addEventListener('click', clicar)
+        m.addEventListener('mouseenter', Entrar)
+        m.addEventListener('mouseout', Sair)
+
+        function clicar() {
+            m.innerText = 'clicou!'
+            m.style.background = 'yellow'
+        }
+        function Entrar() {
+            m.innerText = 'SAIA!'
+            m.style.background = 'black'
+            m.style.color = ' red'
+        }
+        function Sair() {
+            m.innerText = 'ISSO AIII!!!!'
+            m.style.background = 'green'
+            m.style.color = 'white'
+            
+        }
+    </script>
+</body>
+</html>

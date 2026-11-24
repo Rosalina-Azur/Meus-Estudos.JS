@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div id = 'msg'>
+            <p>Data de nascimento</p>
+            <select id="dia">
+                <option value=""disabled selected hidden>Dia</option>
+            </select>
+            <select id="mes">
+                <option value=""disabled selected hidden>Mês</option>
+            </select>
+            <select id="ano">
+                <option value=""disabled selected hidden>Ano</option>
+            </select>
+            <p>Como você se identifica?
+                <input type="radio" name="radgen" id="hom" checked>
+                <label for="hom">Homem</label>
+                <input type="radio" name="radgen" id="mul" checked>
+                <label for="mul">Mulher</label>
+                <input type="radio" name="radgen" id="np"checked>
+                <label for="np">Prefiro não informa</label>
+            </p>
+            <input type="button" value="verificar" onclick="verificar()" id="btn">
+        </div>
+        <div id = 'res'>
+            Preencha os dados para o resultado
+        </div>
+    </section>
+    <footer>
+        <p><a href="https://www.linkedin.com/in/rosalina-dos-santos-fernandes-319052324?utm_source=share_via&utm_content=profile&utm_medium=member_android">Feito por: Rosalina</a>, com uso de IA para tirar duvidas e erros</p>
+        <p>&copy; Aprendendo com <strong>Curso em video</strong></p>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

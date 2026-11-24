@@ -1,0 +1,37 @@
+body{
+    background: rgb(103, 171, 244);
+    font: normal15pt Arial;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.371);
+}
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+}
+#res video{
+    display: block;
+    width: 100;
+    border-radius: 40px;
+    box-shadow: 5px 10px 5px rgb(124, 123, 123);
+    margin: auto;
+}
+#res{
+    text-align: center;
+}
+#msg{
+    text-align: center;
+}
